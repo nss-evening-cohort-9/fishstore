@@ -80,7 +80,7 @@ class NewOrder extends React.Component {
         {Object.keys(orderEditing).length > 1 ? (<h2>Order id: {orderEditing.id}</h2>) : ''}
         <form className='col-6 offset-3'>
           <div className="form-group">
-            <label htmlFor="order-name">Order Name:</label>
+            <label htmlFor="order-name"><h4>Order Name:</h4></label>
             <input
               type="text"
               className="form-control"

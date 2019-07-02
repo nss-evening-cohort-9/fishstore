@@ -2,6 +2,8 @@ import React from 'react';
 import moment from 'moment';
 import PropTypes from 'prop-types';
 
+import './OrderRow.scss';
+
 import orderShapes from '../../helpers/propz/orderShapes';
 
 class OrderRow extends React.Component {
